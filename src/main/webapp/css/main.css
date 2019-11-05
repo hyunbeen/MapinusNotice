@@ -1,0 +1,143 @@
+@charset "EUC-KR";
+
+section:not(#footer,#header){
+	margin-top: 5%;
+}
+#slider{
+	margin-top: 0%;
+}
+#header{
+	position:relative;
+    z-index: 9998;
+    
+}
+#nav{
+	background-color:white;
+    
+}
+#slider{
+	position: relative;
+    z-index: 2;
+}
+.whiteWord{
+	color : #ffffff !important;
+}
+p{
+	margin-top:1% !important;
+	margin-bottom:1% !important;
+}
+#friendly{
+	margin-top: 5%;
+	background-color:#f3f3f3;
+}
+#story{
+	background-color:#f3f3f3;
+}
+#technical{
+	margin-top: 5%;
+}
+
+h1,h2,h3{
+	text-transform: none;
+	color:black;
+}
+
+.logo{
+	color: #3ca3ff;
+}
+
+.upmargin{
+	margin-top: 5%;
+}
+
+.downmargin{
+	margin-bottom: 5%;
+}
+
+.iconstyle{
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+}
+
+.certificateimg{
+	height: 400px;
+}
+
+.overlay{
+	margin-top:10px;
+	width:274px;
+	height: 400px;
+}
+
+
+.maintitle{
+	color: white;
+}
+
+#brandlogo{
+	margin-top : 10px;
+}
+
+#welcome,#technical{
+	background-color: #252633;
+}
+
+figure{
+	background-color: #252633;
+}
+
+.top_header{
+	background-color: #222222 !important;
+}
+
+.navbar-collapse{
+	background : #ffffff !important;
+}
+
+.navbar-toggle{
+	background : #252633 !important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #ffffff !important;
+}
+
+.bg-success{
+	background-color : #3ca3ff !important;
+}
+
+.bg-secondary{
+	background-color : #3ca3ff !important;
+}
+
+@media only screen and (max-width: 767px){
+figure .buttons {
+    left: 27% !important;
+}
+}
+
+@media only screen and (max-width: 414px){
+.nbs-flexisel-item img{
+	width:100% !important;
+}
+}
+
+figure .overlay{
+	background : rgba(60,163,255,0.7) !important;
+}
+
+.menu{
+	color:#ffffff;
+}
+
+#slider{
+	margin-top:-100px;
+}
+
+#nav{
+	background-color:transparent;
+}
+
+#bs-example-navbar-collapse-1{
+	background-color:transparent !important;
+}
